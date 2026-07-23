@@ -31,7 +31,7 @@ docker-compose up -d
 docker-compose ps
 ```
 
-3. Импорт тестовых данных (Агрометрикс)
+3. Импорт тестовых данных
 
 ```
 # Импорт схемы, метаданных и S3-объектов в локальные сервисы
@@ -169,7 +169,7 @@ curl http://localhost:11434/api/generate -d '{
 
 ## Создание и заполнение базы данных PostGIS
 
-**Импорт данных из пакета Агрометрикс**
+**Импорт данных**
 
 ```
 ENV_FILE=.env ./agrometrics_ai_full_handoff_3_fields_20260701/scripts/import_local.sh .
